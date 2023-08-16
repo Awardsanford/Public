@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-etchasketch {
+  height: 70vmin;
+  width: 90vmin;  
+  display: float;
+  position: static;
+}
+
+.App-knob-left {
+  height: 9vmin;
+  width: 9vmin;  
+  position: absolute;
+  bottom: 21%;
+  left: 29%;
+}
+
+.App-knob-right {
+  height: 9vmin;
+  width: 9vmin;  
+  position: absolute;
+  bottom: 21%;
+  right: 29%;
+}
+
+.App-header {
+  background-color: #4c525e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-etch-pixel {
+  background-color: #d1c3c3;
+  height: 10px;
+  width: 10px;
+  position: relative;
+  float:left;
+}
+
+.App-pixel-container{
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 700px;
+  position: absolute;
+  background-color:#d1c3c3;
+  top: 16%;
+  align-items: center;
+}
+
+
