@@ -1,0 +1,49 @@
+.click-to-sign {  
+  font-size: 20px;
+  margin-left: -270px; /* Adjust this value to position it correctly */
+  align-items: center;
+  width: 200px;    
+}
+
+.signature-line-underscore {
+  border-bottom: 2px solid black;
+  padding-left: 5px;
+  margin-left: 5px;
+}
+
+.x {
+  margin-right: 10px;
+}
+
+.signature-container-init {
+  display: flex;
+  flex-wrap: wrap;
+  height: 172px;
+  width: 320px;
+  margin-left: 20px;
+  position: relative;
+  align-items: center;
+}
+
+.signature-container-final {
+  display: flex;
+  flex-wrap: wrap;
+  height: 110px;
+  width: 320px;
+  margin-left: 20px;
+  position: absolute;
+  align-items: center;
+}
+
+.signature-placeholder {
+  display: flex;
+  justify-content: left;
+  font-size: 34px;
+  height: 220px;
+  margin-bottom: 10px;
+}
+
+.signature-line-init {
+  display: flex;
+  align-items: left; /* Align items vertically */
+}
